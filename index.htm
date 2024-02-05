@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <meta name="title" content="Wren - personal blog">
+    <meta name="description" content="all about me">
+    
+    <!---google font link-->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<!-----custom css link-->
+<link rel="stylesheet" href="index.css">
+<script src="https://kit.fontawesome.com/b0e745185d.js" crossorigin="anonymous"></script>
+
+<!---preload images--->
+<link rel="stylesheet" as="image" href="images/logoz.jpg">
+<link rel="stylesheet" as="image" href="images/logoz.jpg">
+<link rel="stylesheet" as="image" href="images/logoz.jpg">
+</head>
+<body>
+
+
+    <header class="header.active" data-header>
+    
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/hj.jpg" width="119" height="37">
+            </a>
+
+            <nav class="navbar active" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="images/hj.jpg" width="119" height="37">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <i class="fa-sharp fa-solid fa-xmark" onclick="closeMenu()"></i>
+                        
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    
+                   
+                    <li>
+                        <a href="#home" class="navbar-link-hover-1" data-nav-toggler>Home</a>
+                    </li>
+                    <li>
+                        <a href="#topics" class="navbar-link-hover-1" data-nav-toggler>Topics</a>
+                    </li>
+                    <li>
+                        <a href="#featured" class="navbar-link-hover-1" data-nav-toggler>Featured post</a>
+                    </li>
+                    <li>
+                        <a href="#recent" class="navbar-link-hover-1" data-nav-toggler>Recent post</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="navbar-link-hover-1" data-nav-toggler>Contact</a>
+                    </li>
+                    <br>
+                </ul>
+
+                <div class="navbar-bottom">
+
+                    <div class="profile-card">
+                        <img src="images/logoz.jpg" width="68" height="68" alt="Hope" class="profile-banner">
+                   <div>
+                    <br>
+                    <p class="card-title">Hello Hope</p>
+                    <p class="card-subtitle">There is a message for you</p>
+                   </div>
+
+                    </div>
+
+<br>
+                    
+                        <ul class="link-list">
+                            <li>
+                                <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-bottom-link hover-1">Acount Setting</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-bottom-link hover-1">Log out</a>
+                            </li>
+                            <br>
+                        </ul>
+                        
+                  
+                </div>
+                <br><br><br><br> 
+                <p class="copyright-text">
+                    Copyright © 2024 Personal Blog | Hope Joseph 
+                </p>
+            </nav>
+
+
+            <!--<a href="#" class="btn btn-primary">Subscribe</a>-->
+
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i> 
+            </button>
+           
+
+
+
+        </div>
+        
+    </header>
+
+
+    <main class="main">
+        <article>
+        <section class="hero" id="home" aria-label="home">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Hello</p>
+                    <h1 class="headline headline-1 section-title"> 
+                        I'm <span class="span">Hope Joseph</span>
+                    </h1>
+                    <p class="hero-text">
+                        I'm committed to growing and improving, both as a content creator and as an individual, to celebrate and embrace the diversity of perspectives and experiences. Join me on this journey of self-discovery and improvement. Through vulnerability and openness, I hope to connect with you on a deeper level. Find inspiration, information, and entertainment on my blog.</p>
+
+                    <div class="input-wrapper">
+                        <input type="email" class="email" name="email_address" placeholder="Email" id="input-field" required>
+                        <br><br>
+                      <button class="btn btn-primary">
+                        <span class="span">Subscribe Here</span>
+                      </button>
+                           
+                    </div>
+                    <br>
+
+
+                </div>
+                <div class="hero-banner">
+                    <img src="images/myself.jpg" width="327" height="490" alt="Hope Joseph" class="w-100">
+                   <!--- <img src="images/7.jpg" alt="shape" width="27" height="26" class="shape shape-1">
+                    <img src="images/7.jpg" alt="shape" width="27" height="26" class="shape shape-2">
+                   -->
+               
+                </div>
+
+                <img src="images/7.jpg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+                <img src="images/8.jpg" width="500" height="500" alt="" class="hero-bg hero-bg-1">
+           
+            
+            </div>
+        </section>  
+        
+        <section class="topics" id="topics" aria-labelleby="topic-label">
+<div class="container">
+    <div class="card topic-card">
+
+        <div class="card-content">
+            <h2 class="headline headline-2 section-title card-title" id="topic-label">Topics</h2>
+
+            <p class="card-text">
+                Take a journey through the articles. Discover the stories, tips, and insights waiting for 
+ you.
+            </p>
+
+            <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                    <i class="fa-sharp fa-solid fa-arrow-left" aria-hidden="true"></i>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="slider" data-slider>
+                <ul class="slider-list" data-slider-container>
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+                            <figure class="slider-banner img-holder" style="--width:507 ; --height:618 ;">
+                                <img src="https://etimg.etb2bimg.com/photo/74881928.cms"  width="507" height="618" loading="lazy" alt="Sport" class="img-cover">
+
+
+                            </figure>
+                             <div class="slider-content">
+                                <span class="slider-title">Sport</span>
+                                <p class="slider-subtitle">12 Articles</p>
+                             </div>
+                             
+                        </a>
+                    </li> 
+
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+                            <figure class="slider-banner img-holder" style="--width:507 ; --height:618 ;">
+                                <img src="https://imageproxy.wolt.com/venue/6232faaafd94b762808350de/ebcc50b6-a903-11ec-8d84-92cd96cd4d02_habib3.jpg?w=1600" width="507" height="618" loading="lazy" alt="Sport" class="img-cover">
+
+
+                            </figure>
+                             <div class="slider-content">
+                                <span class="slider-title">Food</span>
+                                <p class="slider-subtitle">15 Articles</p>
+                             </div>
+                             
+                        </a>
+                    </li>
+
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+                            <figure class="slider-banner img-holder" style="--width:507 ; --height:618 ;">
+                                <img src="https://www.mbmmakeupstudio.com/wp-content/uploads/2021/04/Natural-Makeup-Look-1.jpg" width="507" height="618" loading="lazy" alt="Sport" class="img-cover">
+
+
+                            </figure>
+                             <div class="slider-content">
+                                <span class="slider-title">Makeup</span>
+                                <p class="slider-subtitle">10 Articles</p>
+
+                             </div>
+                             
+                        </a>
+                    </li>
+
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+                            <figure class="slider-banner img-holder" style="--width:507 ; --height:618 ;">
+                                <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BTNK455L6ZANTLSKQIYTJ3G4MI.jpg&w=1440&impolicy=high_res" width="507" height="618" loading="lazy" alt="Sport" class="img-cover">
+
+
+                            </figure>
+                             <div class="slider-content">
+                                <span class="slider-title">Fashion</span>
+                                <p class="slider-subtitle">5 Articles</p>
+                             </div>
+                             
+                        </a>
+                    </li>
+
+                    <li class="slider-item">
+                        <a href="#" class="slider-card">
+                            <figure class="slider-banner img-holder" style="--width:507 ; --height:618 ;">
+                                <img src="https://hips.hearstapps.com/hmg-prod/images/healthy-food-restaurants-640b5d1e9e8fc.png?crop=0.665xw:1.00xh;0.0739xw,0&resize=1200:*" width="507" height="618" loading="lazy" alt="Sport" class="img-cover">
+
+
+                            </figure>
+                             <div class="slider-content">
+                                <span class="slider-title">Health</span>
+                                <p class="slider-subtitle">4 Articles</p>
+                             </div>
+                             
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+        </section>
+
+        </article>
+    </main>
+
+    
+    <script src="index.js"></script>
+
+   </body>
+</html>
